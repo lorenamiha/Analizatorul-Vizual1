@@ -1,0 +1,88 @@
+.menu{
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+    display:inline-block;
+    font-weight: 600;
+}
+
+.menu:hover {
+     color: blue;
+}
+
+.title {
+    margin-top: 200px;
+    font-size: 50px;
+    font-family: monospace;
+    display: block;
+}
+
+.ochiul {
+    font-family: monospace;
+    font-size: 30px;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+ nav{
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+ }
+ 
+ ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+ }
+
+ li{
+    float: left;
+ }
+
+ a{
+    padding: 20px;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #fff;
+ }
+
+ #section1{
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+    margin-top: 200px;
+    font-size: 30px;
+    margin-right: 300px;
+    color:#fff;
+ }
+
+ #section2{
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+ }
+
+ #section3{
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+ }
+
+ #section4{
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+ }
